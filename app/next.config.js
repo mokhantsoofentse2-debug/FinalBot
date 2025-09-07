@@ -4,10 +4,8 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  },
-  // Add these for safety
-  distDir: 'out',
-  assetPrefix: '.'
+  }
+  // REMOVE distDir and assetPrefix - they cause issues with static export
 }
 
 module.exports = nextConfig

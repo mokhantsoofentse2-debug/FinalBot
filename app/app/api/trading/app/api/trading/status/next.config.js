@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Try this instead of 'standalone'
+  output: 'export', // Change from 'standalone' to 'export'
   trailingSlash: true,
   images: {
     unoptimized: true

@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove output: 'export' for now
+  output: 'export',  // This forces static export
   trailingSlash: true,
   images: {
     unoptimized: true

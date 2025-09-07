@@ -2,9 +2,8 @@
 const nextConfig = {
   output: 'export', // Change from 'standalone' to 'export'
   trailingSlash: true,
+  basePath: '',
   images: {
     unoptimized: true
   }
 }
-
-module.exports = nextConfig
